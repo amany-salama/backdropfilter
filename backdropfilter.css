@@ -1,0 +1,35 @@
+body
+{
+    background-image: url(images/ferns-unsplash.jpg);
+    background-size: cover;
+
+}
+
+.parent
+{
+   width: 100%;
+   height: hv;
+   /* perspective: 500px; */
+  
+}
+.box
+{
+    width: 500px;
+    height: 100px;
+    background-color: rgba(64, 184, 227, 0.5);
+    border: 1px solid   rgba(64, 184, 227, 0.5);
+    border-radius: 20px;
+    backdrop-filter:blur(10px);
+    transform:translateY(500px);
+    transition: all 5s;
+    transition-timing-function:ease-in-out;
+ }
+
+.box:hover 
+{
+    transform:translateY(-600px);
+    border: 1px solid   rgba(6, 238, 68, 0.5);
+    background-color: rgba(92, 224, 130, 0.5);
+
+    cursor: pointer;
+}
